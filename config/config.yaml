@@ -1,0 +1,18 @@
+# experiment configuration
+exp_name: "flavor_match"
+
+# output settings
+dpi: 300
+show_plot: false
+
+# dimensionality reduction settings
+reduce_dim: True
+reduce_dim_method: "svd"   # options: pca, svd
+n_dim: 100
+idf: false
+scree_max_dim: 40
+
+# paths
+notebook_dir: "."
+run_dir: "runs"
+output_dir: "output"
