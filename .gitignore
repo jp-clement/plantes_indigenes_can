@@ -4,5 +4,7 @@ output/*
 runs/*
 .env
 archive/*
+*.pyc
+notes.md
 
 !*.gitkeep
