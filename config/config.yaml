@@ -4,9 +4,10 @@ exp_name: "flavor_match"
 # output settings
 dpi: 300
 show_plot: false
+show_imp_plot: true
 
 # dimensionality reduction settings
-reduce_dim: True
+reduce_dim: true
 reduce_dim_method: "svd"   # options: pca, svd
 n_dim: 100
 idf: false
