@@ -1,5 +1,5 @@
 # experiment configuration
-exp_name: "flavor_match"
+exp_name: "gpt52-RAG"
 
 # output settings
 dpi: 300
@@ -7,9 +7,9 @@ show_plot: false
 show_imp_plot: true
 
 # dimensionality reduction settings
-reduce_dim: true
+reduce_dim: True
 reduce_dim_method: "svd"   # options: pca, svd
-n_dim: 100
+n_dim: 50
 idf: false
 
 scree_max_dim: 40
